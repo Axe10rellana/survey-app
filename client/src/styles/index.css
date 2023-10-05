@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.not-found {
+  text-align: center;
+  padding: 20px;
+}
+
+.title-not-found {
+  font-size: 3em;
+  color: #f44336
+}
+
+.message-not-found {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.btn-not-found {
+  text-decoration: none;
+  padding: 0.75rem 0.75rem;
+  color: #ffffff;
+  background-color: #5b08a7;
+  transition: all 0.3s;
+  border-radius: 6px;
+}
+
+.btn-not-found:hover {
+  opacity: 0.8;
+}
